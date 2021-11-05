@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#This program Add a new contact to the address book,Remove a contact from the address book and Display all the contacts in the address book
 usage() {
     echo -e "Usage: $0 [-o <add|remove|display>]\n[OPTIONAL][-e <contact-email>][!MUST USE WITH DISPLAY OPTION] - To search a contact" 1>&2; exit 1;
 }
