@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ # This program output a file with line numbers
 usage() {
     echo "Usage: $0 [file-name]" 1>&2; exit 1;
 }
