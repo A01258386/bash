@@ -28,6 +28,9 @@ while getopts "u:f:" o; do
             WRITETOFILE=true
             FILENAME=${OPTARG}
             ;;
+        h)
+            usage
+            ;;
     esac
 done
 
