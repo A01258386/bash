@@ -32,9 +32,10 @@ while getopts ":o:e:h" o; do
             usage
             exit
             ;;
-
+#update starts here
         h)
             usage
+#update ends here
 
     esac
 done
