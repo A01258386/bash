@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#This shell script take two arguments a URL and optional flag -f which
+# when passed will write the output to a file in the same directory as the script is run.
+
 # Defining usage function
 usage() {
     echo "Usage: $0 [-u <URL>] [OPTIONAL][-f <filename>]" 1>&2; exit 1; # "1>&2" redirects output to stderr
